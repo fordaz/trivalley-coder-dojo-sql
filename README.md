@@ -1,38 +1,61 @@
 # Getting Started with SQL
 
-## Get acquainted with Structured Query Language (SQL)
+## Motivation 
+This page is a curated list of resources to help our kids from the [Tri-Valley CoderDojo](https://trivalleycoderdojo.wordpress.com/) to get started with the Structured Query Language (SQL). 
 
-[What is SQL? [in 4 minutes for beginners]](https://www.youtube.com/watch?v=27axs9dO7AE&ab_channel=DanielleTh%C3%A9)
+## Getting Started
 
-[Learn Basic SQL in 10 mins](https://www.youtube.com/watch?v=bEtnYWuo2Bw&ab_channel=JamesVance)
+### Session 1
+If this is your first exposure to SQL, you might want to check out the following introductory videos:
+* [What is SQL? [in 4 minutes for beginners]](https://www.youtube.com/watch?v=27axs9dO7AE&ab_channel=DanielleTh%C3%A9)
+* [Learn Basic SQL in 10 mins](https://www.youtube.com/watch?v=bEtnYWuo2Bw&ab_channel=JamesVance)
 
-## Start practicing SQL (using your Browser).
+Once you are familiar with the following concepts:
 
-[Sql Zoon - SQL_Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
+* Database, Table, Row, Column
+* Basic query syntax (`select` statements)
 
-[SQLite Tutorial](https://www.sqlitetutorial.net/)
+Please feel free to try some of these exercises:
 
-[CodeCademy - Learn SLQ](https://www.codecademy.com/learn/learn-sql)
+* [Select basics](https://sqlzoo.net/wiki/SELECT_basics)
+* [Select names](https://sqlzoo.net/wiki/SELECT_names)
 
-## Use SQL from Python.
+### Session 2
+At this point you have done some basic queries, and are ready to try the next set of exercises:
 
-NOTE: Check the python prerequisites.
+* [Select from world](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)
+* [Select from Nobel](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial)
 
-[Install SQLite](https://www.sqlitetutorial.net/download-install-sqlite/)
+## Keep on learning and practicing
+At this point you have the basics down, and you might want to consider other resources as well and continue learning about SQL.
 
-Install [PySQLite](https://pypi.org/project/pysqlite/)
+### Start practicing SQL (using your Browser).
+* [Sql Zoon - SQL_Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
+* [SQLite Tutorial](https://www.sqlitetutorial.net/)
+* [CodeCademy - Learn SLQ](https://www.codecademy.com/learn/learn-sql)
+* [replit](https://replit.com/)
 
-```
-pip install pysqlite
-```
+You can you the replit website in two ways:
 
-Go through the [SQLite Python tutorial](https://www.sqlitetutorial.net/sqlite-python/)
+* To write python programs which use SQL to interact with a SQLite database in your browser.
+* To directly write SQL to interact with a SQLite database in your browser.
 
-[Optional: Install a Database Viewer](https://dbeaver.io/download/), this is useful if you want to interact with a database without writing Python Code.
+### Use SQL with a local Database.
+* [Install SQLite](https://www.sqlitetutorial.net/download-install-sqlite/)
+* [Install a Database Viewer](https://dbeaver.io/download/) (useful if you want to interact with a database without writing Python Code)
+
+### Use python to interact with a local Database
+
+Check the python prerequisites. Then proceed to:
+
+* Install [PySQLite](https://pypi.org/project/pysqlite/)
+
+```pip install pysqlite```
+
+* Go through the [SQLite Python tutorial](https://www.sqlitetutorial.net/sqlite-python/)
 
 # Appendix
 
 ## Python Prerequisites
-
 * Install [Python 3.6+](https://www.python.org/downloads/)
 * Install [pip](https://pip.pypa.io/en/stable/installing/) (if needed)
