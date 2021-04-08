@@ -10,6 +10,11 @@ If this is your first exposure to SQL, you might want to check out the following
 * [What is SQL? [in 4 minutes for beginners]](https://www.youtube.com/watch?v=27axs9dO7AE&ab_channel=DanielleTh%C3%A9)
 * [Learn Basic SQL in 10 mins](https://www.youtube.com/watch?v=bEtnYWuo2Bw&ab_channel=JamesVance)
 
+The following material might also help to understand the key concepts:
+* [The Data School - Introduction](https://dataschool.com/how-to-teach-people-sql/introduction/)
+* [The Data School - Why Databases](https://dataschool.com/how-to-teach-people-sql/why-databases/)
+* [The Data School - Accessing Data](https://dataschool.com/how-to-teach-people-sql/accessing-data/)
+
 Once you are familiar with the following concepts:
 
 * Database, Table, Row, Column
